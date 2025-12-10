@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+const uri="mongodb+srv://root:root@cluster0.k1wedwy.mongodb.net/foodDB"
 
 const foodSchema = new mongoose.Schema({
     foodName:{
