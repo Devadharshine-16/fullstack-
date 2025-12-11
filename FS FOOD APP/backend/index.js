@@ -10,7 +10,7 @@ app.use(cors());
 app.use(express.json());
 
 console.log("Connecting to MongoDB...");
-mongoose.connect("mongodb+srv://root:root@cluster0.k1wedwy.mongodb.net/foodDB")
+mongoose.connect("mongodb+srv://root:root@cluster0.k1wedwy.mongodb.net/fooddb")
 
     .then(() => {
         console.log("✅ MongoDB connected successfully");

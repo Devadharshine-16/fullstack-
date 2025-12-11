@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 2px solid #4caf50; /* green visible border */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+nav {
+  margin: 20px 0;
+}
+
+.nav-list {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+}
+
+.nav-list li {
+  padding: 10px 20px;
+  border: 1px solid #2196f3; /* blue border */
+  border-radius: 5px;
+  background-color: #e3f2fd; /* light blue background */
+  transition: 0.3s;
+}
+
+.nav-list li:hover {
+  background-color: #bbdefb;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: #0d47a1; /* dark blue text */
+  font-weight: bold;
+}
+
+.page {
+  padding: 10px;
+}
+
+.book-list {
+  list-style-type: square;
+  padding-left: 20px;
+}

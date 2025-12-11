@@ -1,0 +1,97 @@
+/* Reset some default styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 50px;
+}
+
+/* Container */
+.container {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: gray;
+  width: 350px;
+}
+
+/* Headings */
+h2, h3 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Forms */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+/* Inputs */
+input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  outline: none;
+  transition: 0.2s;
+}
+
+input:focus {
+  border-color: #007bff;
+}
+
+/* Buttons */
+button {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Food List */
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  padding: 10px;
+  margin-bottom: 8px;
+  background-color: gray;
+  border-left: 4px solid #007bff; /* visible colored line */
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+/* Logout button */
+button.logout-btn {
+  background-color: #dc3545;
+  margin-bottom: 15px;
+}
+
+button.logout-btn:hover {
+  background-color: #b52a37;
+}
